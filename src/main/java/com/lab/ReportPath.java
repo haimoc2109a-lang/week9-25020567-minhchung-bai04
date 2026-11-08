@@ -9,6 +9,6 @@ public final class ReportPath {
 
   /** Returns the relative path for a report. */
   public static Path outputFile() {
-    return Path.of("reports\\result.txt");
+    return Path.of("reports", "result.txt");
   }
 }
